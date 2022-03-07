@@ -1,0 +1,79 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 1em auto;
+}
+
+header {
+    background-color: #E579E6;
+    height: 5em;
+    margin-bottom: 1em;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: #E1D67A;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+
+/* Main */
+
+main {
+    background-color: #0285FD;
+    padding-bottom: 1em;
+    margin-bottom: 3px;
+}
+
+.top {
+    background-color: #ABCFE7;
+    height: 3em;
+    margin-bottom: 1em;
+}
+
+
+/* Columns */
+
+.column {
+    background-color: #ABCFE7;
+    height: 20em;
+    float: left;
+}
+
+.center {
+    width: calc(60% - 2em);
+    margin: 0 1em;
+}
+
+.side {
+    width: 20%;
+    float: left;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #8801FE;
+    height: 3em;
+}
