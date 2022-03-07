@@ -63,8 +63,24 @@ li>a {
 /* Jumbotron */
 
 .jumbotron {
-    background-color: #E1D67A;
-    height: 10em;
+    position: relative;
+}
+
+.jumbotron img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.with_layover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 
