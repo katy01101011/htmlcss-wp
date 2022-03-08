@@ -75,6 +75,7 @@ li>a {
     object-fit: cover;
     border-radius: 7px;
     overflow: hidden;
+    display: block;
 }
 
 .with_overlay::before {
@@ -86,7 +87,7 @@ li>a {
     top: 0;
     left: 0;
     border-radius: 7px;
-    overflow: hidden;
+
 }
 
 .jumbo_text {
